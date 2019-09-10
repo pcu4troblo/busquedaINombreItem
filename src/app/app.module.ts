@@ -7,14 +7,16 @@ import { HttpClientModule } from '@angular/common/http';
 import { ItemsService } from './services/items.service';
 import { BuscarItemsComponent } from './components/buscar-items/buscar-items.component';
 import { FormsModule } from '@angular/forms';
-import { DetalleItemComponent } from './components/detalle-item/detalle-item.component'
+import { DetalleItemComponent } from './components/detalle-item/detalle-item.component';
+import { NavbarComponent } from './components/navbar/navbar.component'
 
 
 @NgModule({
   declarations: [
     AppComponent,
     BuscarItemsComponent,
-    DetalleItemComponent
+    DetalleItemComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
